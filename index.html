@@ -1,32 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
+<DOCTYPE html>
+    <html lang="en">
   <head>
     <meta charset="UTF-8">
     <title>HTML FORM</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <p>
+    <form>
   <h1>HTML Form</h1>
     First name<input id="name" type="text" required placeholder="first name" required><label id="name-label"/></input>
     Last name:<input id="name" type="text" required placeholder="Last name" required><label id="name-label"/></input>
-    <label for="Age">Age:</label>
-    <select name="Age" id="Age">
-        <option placeholder="Last name"></option>
-        <option value="18-23">18-23</option>
-        <option>24-29</option>
-        <option>30-35</option>
-    </select>
-</input></p>
-<p>
+    Age: <input size="7" placeholder="Age" type="number" name="Age" min="0" max="999">
+  </form>
+
+<form>
     Email:<input id="name" type="text" required placeholder="Email" required><label id="name-label"/></input>
     Password:<input id="name" type="text" required placeholder="Password" required><label id="name-label"/></input>
-</p>
+</form>
 
     <h2>Gender:</h2> 
-<label for="Male"><input id="Male" type="radio" name="gender" /> Male</label>
-<label for="Female"><input id="Female" type="radio" name="gender" /> Female</label>
-<label for="Other"><input id="Other" type="radio" name="gender" /> Other</label>
-
+    <label for="Male"><input id="Male" type="radio" name="gender" /> Male</label>
+    <label for="Female"><input id="Female" type="radio" name="gender" /> Female</label>
+    <label for="Other"><input id="Other" type="radio" name="gender" /> Other</label>
+    
 <h2>Select your device:</h2>
 <label for="Macbook"><input  id="Macbook" type="checkbox"  name="device"/> Macbook</label>
 <label for="iPhone"><input id="iPhone" type="checkbox" name="device" /> iPhone</label>
